@@ -1,4 +1,4 @@
-deep_chatbot_venv
+venv
 label_encoder.pickle
 tokenizer.pickle
 .idea

@@ -11,6 +11,8 @@ from colorama import Fore, Style, Back
 import random
 import pickle
 
+CHAT_BOT_NAME = "Jarvis"
+
 with open("intents.json") as file:
     data = json.load(file)
 
@@ -42,9 +44,9 @@ def chat():
 
         for i in data['intents']:
             if i['tag'] == tag:
-                print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL, np.random.choice(i['responses']))
+                print(Fore.GREEN + CHAT_BOT_NAME + Style.RESET_ALL, np.random.choice(i['responses']))
 
-        # print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL,random.choice(responses))
+        # print(Fore.GREEN + CHAT_BOT_NAME + Style.RESET_ALL,random.choice(responses))
 
 
 print(Fore.YELLOW + "Start messaging with the bot (type quit to stop)!" + Style.RESET_ALL)

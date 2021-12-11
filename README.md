@@ -1,5 +1,9 @@
 # deep chatbot
 
+## Introduction
+
+Chatbot created following this [tutorial](https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281)
+
 ## Requirements
 
 Python3
